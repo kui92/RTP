@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/suface"
+        android:layout_width="288dp"
+        android:layout_height="192dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/start"
+            android:text="开始"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/pause"
+            android:text="暂停"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <SurfaceView
+        android:background="@color/colorAccent"
+        android:id="@+id/suface2"
+        android:layout_width="72dp"
+        android:layout_height="48dp" />
+
+
+</RelativeLayout>
